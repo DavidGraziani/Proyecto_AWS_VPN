@@ -1,0 +1,13 @@
+# Excluir claves privadas
+my-key-pair.pem
+
+# Excluir archivos generados por Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.x5
+*.exe
+# Excluir otros archivos temporales
+*.log
+
+.terraform/
