@@ -30,22 +30,6 @@ resource "aws_internet_gateway" "igw"{
   vpc_id = aws_vpc.vpc-poc.id
 }
 
-# rutas no tabla de enrutamiento
-# resource "aws_route""route"{
-#   route_table_id = aws_vpc.vpc-poc.main_route_table_id
-#   destination_cidr_block = "0.0.0.0/0"
-#   gateway_id =aws_internet_gateway.igw.id
-# }
-
-# resource "aws_route_table" "rutas" {
-#  vpc_id = aws_vpc.vpc-poc.id
- 
-#  route {
-#   cidr_block = "0.0.0.0/0"
-#   gateway_id = aws_internet_gateway.igw.id
-#   } 
-# }
-
 
 # Security group
 resource "aws_security_group""permiso_tls"{
@@ -130,7 +114,6 @@ resource "aws_vpn_gateway" "vpn_gw" {
 resource "aws_vpn_connection" "mivpn" {
   customer_gateway_id  = aws_customer_gateway.onpremisegw.id
   vpn_gateway_id   = aws_vpn_gateway.vpn_gw.id
-  # outside_ip_address_type  = "PrivateIpv4" #essto se usa para el transit gateway
   type    = "ipsec.1"
   static_routes_only  = true
   local_ipv4_network_cidr = "10.30.0.0/16"

@@ -10,7 +10,3 @@ variable "AWS_SECRET_KEY_ID"{
     sensitive = true
 } 
 
-# variable "REGION_ACCOUNT"{
-#     description = "region de la cuenta"
-#     default = "us-east-1"
-# }
