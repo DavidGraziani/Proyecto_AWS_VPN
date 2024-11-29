@@ -1,6 +1,5 @@
 # Instancia
 resource "aws_instance" "mi_instancia_ec2"{
-  # ami = "ami-063d43db0594b521b" #Amazon linux
   ami = "ami-0866a3c8686eaeeba" # ubuntu
   instance_type = "t2.micro"
   key_name = aws_key_pair.mi_llave_rsa.key_name

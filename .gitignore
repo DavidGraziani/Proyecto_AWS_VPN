@@ -10,4 +10,4 @@ my-key-pair.pem
 # Excluir otros archivos temporales
 *.log
 
-.terraform/
+
