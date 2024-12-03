@@ -1,7 +1,8 @@
                                                   Proyecto AWS VPN Site to Site
 
-Explicacion de los pasos a seguir luego de aplicar un terraform apply al script. Es sencillo crear la conexion VPN site to site y configurar los equipos a los que se realizara la conexion, lo primero que debemos hacer es ir al apartado de aws en VPN connection y descargar el txt, luego hay que elegir el tipo de dispositivo y la version para pasar a configurar seguiendo la documentacion de configuracion (como se muestra en la imagen), tambien haber creado las politicas de salidas y entradas para los 2 tunnels, y estaria listo para hacer la prueba de conexion. Favor seguir las imagenes 
+Explicacion de los pasos a seguir luego de aplicar un terraform apply al script. Es sencillo crear la conexion VPN site to site y configurar los equipos a los que se realizara la conexion, lo primero que debemos hacer es ir al apartado de aws en VPN connection y descargar el txt, luego hay que elegir el tipo de dispositivo y la version para pasar a configurar seguiendo la documentacion de configuracion (como se muestra en la imagen), tambien haber creado las politicas de salidas y entradas para los 2 tunnels, y estaria listo para hacer la prueba de conexion. Favor seguir las imagenes: 
 
+ir a Download Configuration
 ![image](https://github.com/user-attachments/assets/6c4d4a7d-54a4-40fa-9438-47143ad81311)
 
 Aqui elija el equipo al configurar.
