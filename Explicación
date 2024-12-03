@@ -1,0 +1,5 @@
+luego de hacer un terraform apply hay que seguir estos paso para la configuracion de cualquier dispositivo que se quiera lograr una conexion por VPN site to site
+
+
+Este es el diagrama del proyecto 
+![image](https://github.com/user-attachments/assets/84365aad-c95f-4ab7-9a2b-93d80db21950)
