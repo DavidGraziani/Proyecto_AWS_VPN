@@ -10,7 +10,8 @@ Aqui elija el equipo al configurar.
 ![image](https://github.com/user-attachments/assets/d2e18f0e-26b8-4f1f-bf1e-03a2e16eb3f3)
 
 Y seguir los paso de la configuracion segun el txt
-![image](https://github.com/user-attachments/assets/2a8c01a3-8514-49bc-961c-2721c93bc3c9)
+![image](https://github.com/user-attachments/assets/393f204e-e8fb-4232-b7be-74810803536a)
+
 
 
                                                 Digrama de toda la implementación 
