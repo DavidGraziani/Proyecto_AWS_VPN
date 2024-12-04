@@ -6,7 +6,7 @@ ir a Download Configuration
 
 ![image](https://github.com/user-attachments/assets/6c4d4a7d-54a4-40fa-9438-47143ad81311)
 
-Aqui elija el equipo al configurar.
+Aqui elija el equipo al configurar y la version.
 
 ![image](https://github.com/user-attachments/assets/d2e18f0e-26b8-4f1f-bf1e-03a2e16eb3f3)
 
