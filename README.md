@@ -17,4 +17,5 @@ Y seguir los paso de la configuracion segun el txt.
 
 
                                                 Digrama de toda la implementación 
-![image](https://github.com/user-attachments/assets/23948283-e5ce-4069-828a-7bcf2c3f547b)
+![image](https://github.com/user-attachments/assets/9f9f5b57-21a3-4227-8397-37c56d72957e)
+
